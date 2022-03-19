@@ -1,7 +1,7 @@
 CC=gcc -std=c99
 
 smallsh:
-	$(CC) prog3.c -o smallsh 
+	$(CC) small_sh.c -o smallsh 
 
 clean:
 	rm -f smallsh
